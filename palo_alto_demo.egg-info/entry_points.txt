@@ -1,0 +1,14 @@
+[resilient.circuits.components]
+FunctFpCreateAddressFunctionComponent = palo_alto_demo.components.funct_fp_create_address:FunctionComponent
+FunctPaloAltoGetAddressFunctionComponent = palo_alto_demo.components.funct_palo_alto_get_address:FunctionComponent
+FunctPaloAltoGetAddressInGroupFunctionComponent = palo_alto_demo.components.funct_palo_alto_get_address_in_group:FunctionComponent
+FunctPaloAltoGetPolicyFunctionComponent = palo_alto_demo.components.funct_palo_alto_get_policy:FunctionComponent
+
+[resilient.circuits.configsection]
+gen_config = palo_alto_demo.util.config:config_section_data
+
+[resilient.circuits.customize]
+customize = palo_alto_demo.util.customize:customization_data
+
+[resilient.circuits.selftest]
+selftest = palo_alto_demo.util.selftest:selftest_function
